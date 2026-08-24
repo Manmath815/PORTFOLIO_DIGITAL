@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Manmath Pogakwar — Computer Engineering Student Portfolio">
+
+    <meta name="author" content="Manmath Pogakwar">
+
+    <title>Manmath Pogakwar | The Wizarding Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         MAGICAL LOADING SCREEN
+    =========================================== -->
+
+    <div id="loader" class="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-symbol">✦</div>
+
+            <h1>MANMATH POGAKWAR</h1>
+
+            <p>Preparing the magical portfolio...</p>
+
+            <div class="loading-line">
+                <span></span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+         MAGICAL PARTICLE BACKGROUND
+    =========================================== -->
+
+    <canvas id="particleCanvas"></canvas>
+
+
+    <!-- ==========================================
+         NAVIGATION
+    =========================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-logo">
+            <span>✦</span>
+            MP
+        </div>
+
+        <nav>
+
+            <a href="#home">Great Hall</a>
+            <a href="#about">The Wizard</a>
+            <a href="#projects">Inventions</a>
+            <a href="#skills">Spellbook</a>
+            <a href="#achievements">Honours</a>
+            <a href="#contact">Owl Post</a>
+
+        </nav>
+
+        <button class="map-button" id="mapButton">
+            🗺 Map
+        </button>
+
+    </header>
+
+
+    <!-- ==========================================
+         HERO / GREAT HALL
+    =========================================== -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <div class="magic-symbol">
+                    ✦
+                </div>
+
+                <p class="eyebrow">
+                    WELCOME, TRAVELLER
+                </p>
+
+                <h1>
+                    MANMATH
+                    <span>POGAKWAR</span>
+                </h1>
+
+                <div class="hero-divider">
+                    <span>◆</span>
+                </div>
+
+                <p class="hero-title">
+                    COMPUTER ENGINEERING STUDENT
+                </p>
+
+                <p class="hero-description">
+                    Building ideas with technology,
+                    curiosity and a little bit of magic.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        Enter the Great Hall
+                    </a>
+
+                    <a href="#about" class="btn btn-secondary">
+                        Discover the Wizard
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+
+                <span>SCROLL TO EXPLORE</span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             ABOUT
+        =========================================== -->
+
+        <section id="about" class="section about">
+
+            <div class="section-heading">
+
+                <p class="section-eyebrow">
+                    CHAPTER I
+                </p>
+
+                <h2>
+                    The Wizard
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-image">
+
+                    <div class="portrait-frame">
+
+                        <div class="portrait-placeholder">
+                         <img src="profile.jpg"
+                         alt="Manmath Pogakwar">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <p class="large-text">
+                        Hello, I'm <strong>Manmath Pogakwar</strong>.
+                    </p>
+
+                    <p>
+                        I'm a Computer Engineering student at
+                        MIT Academy of Engineering, interested in
+                        technology, innovation and building useful
+                        digital solutions.
+                    </p>
+
+                    <p>
+                        I enjoy exploring programming, data,
+                        cybersecurity, web development and
+                        technology-driven problem solving.
+                    </p>
+
+
+                    <div class="about-details">
+
+                        <div>
+                            <span>EDUCATION</span>
+                            <strong>
+                                MIT Academy of Engineering
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>BRANCH</span>
+                            <strong>
+                                Computer Engineering
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>LOCATION</span>
+                            <strong>
+                                Pune, India
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             PROJECTS
+        =========================================== -->
+
+        <section id="projects" class="section projects">
+
+            <div class="section-heading">
+
+                <p class="section-eyebrow">
+                    CHAPTER II
+                </p>
+
+                <h2>
+                    Potions & Inventions
+                </h2>
+
+                <div class="heading-line"></div>
+
+                <p class="section-description">
+                    Experiments, inventions and technological
+                    solutions I've worked on.
+                </p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 01 -->
+
+                <article class="project-card">
+
+                    <div class="artifact-number">
+                        001
+                    </div>
+
+                    <div class="project-icon">
+                        ⚗
+                    </div>
+
+                    <p class="project-category">
+                        DIGITAL SECURITY
+                    </p>
+
+                    <h3>
+                        FinX
+                    </h3>
+
+                    <p>
+                        A concept for detecting suspicious
+                        UPI transactions and improving digital
+                        payment security.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Security</span>
+                        <span>UPI</span>
+                        <span>ML</span>
+
+                    </div>
+
+                    <button class="artifact-button">
+                        Open Artifact →
+                    </button>
+
+                </article>
+
+
+                <!-- PROJECT 02 -->
+
+                <article class="project-card">
+
+                    <div class="artifact-number">
+                        002
+                    </div>
+
+                    <div class="project-icon">
+                        🌱
+                    </div>
+
+                    <p class="project-category">
+                        AGRITECH
+                    </p>
+
+                    <h3>
+                        Smart Farming
+                    </h3>
+
+                    <p>
+                        A technology-assisted farming concept
+                        designed to help farmers make smarter
+                        decisions.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Agriculture</span>
+                        <span>IoT</span>
+                        <span>Data</span>
+
+                    </div>
+
+                    <button class="artifact-button">
+                        Open Artifact →
+                    </button>
+
+                </article>
+
+
+                <!-- PROJECT 03 -->
+
+                <article class="project-card">
+
+                    <div class="artifact-number">
+                        003
+                    </div>
+
+                    <div class="project-icon">
+                        💧
+                    </div>
+
+                    <p class="project-category">
+                        SUSTAINABILITY
+                    </p>
+
+                    <h3>
+                        Bio-Sand Water Filter
+                    </h3>
+
+                    <p>
+                        A sustainable water filtration concept
+                        designed around the needs of communities
+                        near the Indrayani River.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Design Thinking</span>
+                        <span>Water</span>
+                        <span>Sustainability</span>
+
+                    </div>
+
+                    <button class="artifact-button">
+                        Open Artifact →
+                    </button>
+
+                </article>
+
+
+                <!-- PROJECT 04 -->
+
+                <article class="project-card">
+
+                    <div class="artifact-number">
+                        004
+                    </div>
+
+                    <div class="project-icon">
+                        📈
+                    </div>
+
+                    <p class="project-category">
+                        DATA ANALYTICS
+                    </p>
+
+                    <h3>
+                        FAANG Analytics
+                    </h3>
+
+                    <p>
+                        Stock-market data analysis and
+                        visualization exploring trends,
+                        volatility and performance.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Python</span>
+                        <span>Tableau</span>
+                        <span>Finance</span>
+
+                    </div>
+
+                    <button class="artifact-button">
+                        Open Artifact →
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             SKILLS
+        =========================================== -->
+
+        <section id="skills" class="section skills">
+
+            <div class="section-heading">
+
+                <p class="section-eyebrow">
+                    CHAPTER III
+                </p>
+
+                <h2>
+                    The Spellbook
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="spellbook">
+
+                <div class="spell-category">
+
+                    <h3>Programming</h3>
+
+                    <div class="spell-list">
+
+                        <span>C</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="spell-category">
+
+                    <h3>Web Development</h3>
+
+                    <div class="spell-list">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="spell-category">
+
+                    <h3>Data & Analytics</h3>
+
+                    <div class="spell-list">
+
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>Tableau</span>
+                        <span>Data Analysis</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="spell-category">
+
+                    <h3>Technology</h3>
+
+                    <div class="spell-list">
+
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Blockchain</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             ACHIEVEMENTS
+        =========================================== -->
+          <section id="achievements" class="section achievements">
+
+    <div class="section-heading">
+        <p class="section-eyebrow">
+            CHAPTER IV
+        </p>
+
+        <h2>
+            Hall of Honours
+        </h2>
+
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="honours-grid">
+
+        <!-- Bio-Sand Water Filter -->
+        <div class="honour-card">
+            <div class="honour-icon">💧</div>
+
+            <div class="honour-content">
+                <span class="honour-semester">
+                    SEMESTER 2 · DESIGN THINKING
+                </span>
+
+                <h3>Bio-Sand Water Filter</h3>
+
+                <p>
+                    Designed a bio-sand water filtration solution to provide
+                    safer drinking water for people visiting the Indrayani
+                    River area in Alandi.
+                </p>
+
+                <div class="honour-tags">
+                    <span>Design Thinking</span>
+                    <span>Social Impact</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Pesticide Spraying Drone -->
+        <div class="honour-card">
+            <div class="honour-icon">🚁</div>
+
+            <div class="honour-content">
+                <span class="honour-semester">
+                    SEMESTER 2
+                </span>
+
+                <h3>Pesticide Spraying Drone</h3>
+
+                <p>
+                    Developed a drone-based concept for pesticide spraying
+                    in agriculture, combining engineering with practical
+                    agricultural applications.
+                </p>
+
+                <div class="honour-tags">
+                    <span>Drone Technology</span>
+                    <span>Agriculture</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FANG Data Analysis -->
+        <div class="honour-card">
+            <div class="honour-icon">📊</div>
+
+            <div class="honour-content">
+                <span class="honour-semester">
+                    DATA ANALYTICS
+                </span>
+
+                <h3>FANG Data Analysis</h3>
+
+                <p>
+                    Performed data analysis and created visualizations using
+                    Tableau to explore and communicate insights from
+                    FANG-related data.
+                </p>
+
+                <div class="honour-tags">
+                    <span>Tableau</span>
+                    <span>Data Visualization</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Light Emitting Detector -->
+        <div class="honour-card">
+            <div class="honour-icon">💡</div>
+
+            <div class="honour-content">
+                <span class="honour-semester">
+                    SEMESTER 1 · DIGITAL ELECTRONICS
+                </span>
+
+                <h3>Light Emitting Detector</h3>
+
+                <p>
+                    Built a practical electronics project as part of the
+                    Digital Electronics course, applying fundamental
+                    circuit and electronic concepts.
+                </p>
+
+                <div class="honour-tags">
+                    <span>Electronics</span>
+                    <span>Hardware</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Banking System -->
+        <div class="honour-card">
+            <div class="honour-icon">🏦</div>
+
+            <div class="honour-content">
+                <span class="honour-semester">
+                    SEMESTER 1 · LINUX
+                </span>
+
+                <h3>Banking System</h3>
+
+                <p>
+                    Developed a banking system project while learning Linux,
+                    gaining practical experience with programming and
+                    Linux-based development.
+                </p>
+
+                <div class="honour-tags">
+                    <span>Linux</span>
+                    <span>Programming</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Japanese Language -->
+        <div class="honour-card">
+            <div class="honour-icon">🇯🇵</div>
+
+            <div class="honour-content">
+                <span class="honour-semester">
+                    SEMESTER 1 · PERSONAL DEVELOPMENT
+                </span>
+
+                <h3>Japanese Language</h3>
+
+                <p>
+                    Started learning Japanese alongside engineering studies,
+                    developing an interest in language and cross-cultural
+                    learning.
+                </p>
+
+                <div class="honour-tags">
+                    <span>Japanese</span>
+                    <span>Learning</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+       
+        <!-- ==========================================
+             CONTACT
+        =========================================== -->
+
+        <section id="contact" class="section contact">
+
+            <div class="section-heading">
+
+                <p class="section-eyebrow">
+                    FINAL CHAPTER
+                </p>
+
+                <h2>
+                    Owl Post
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="contact-letter">
+
+                <p class="letter-small">
+                    Dear Visitor,
+                </p>
+
+                <h3>
+                    Want to build something interesting?
+                </h3>
+
+                <p>
+                    Whether it's a project, hackathon,
+                    collaboration or simply a conversation
+                    about technology, send an owl.
+                </p>
+
+
+                <div class="contact-links">
+
+    <a href="mailto:manmathpogakwar815@gmail.com">
+        ✉ Email
+    </a>
+
+    <a href="https://www.linkedin.com/in/manmath-pogakwar-047573382/" target="_blank">
+        in LinkedIn
+    </a>
+
+    <a href="https://github.com/Manmath815" target="_blank">
+        ◇ GitHub
+    </a>
+
+</div>
+
+                <p class="letter-signature">
+                    — Manmath
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <div class="footer-symbol">
+            ✦
+        </div>
+
+        <p>
+            Designed & built by Manmath Pogakwar
+        </p>
+
+        <p class="footer-small">
+            © 2026 • All rights reserved
+        </p>
+
+    </footer>
+
+
+    <!-- ==========================================
+         MARAUDER'S MAP
+    =========================================== -->
+
+    <div id="mapOverlay" class="map-overlay">
+
+        <button id="closeMap" class="close-map">
+            ×
+        </button>
+
+        <div class="map">
+
+            <p class="map-title">
+                THE MARAUDER'S MAP
+            </p>
+
+            <p class="map-subtitle">
+                I solemnly swear that I am up to no good.
+            </p>
+
+            <div class="map-path">
+
+                <a href="#home">
+                    🏰 Great Hall
+                </a>
+
+                <span>↓</span>
+
+                <a href="#about">
+                    🧙 The Wizard
+                </a>
+
+                <span>↓</span>
+
+                <a href="#projects">
+                    ⚗ Potions & Inventions
+                </a>
+
+                <span>↓</span>
+
+                <a href="#skills">
+                    🪄 Spellbook
+                </a>
+
+                <span>↓</span>
+
+                <a href="#achievements">
+                    🏆 Hall of Honours
+                </a>
+
+                <span>↓</span>
+
+                <a href="#contact">
+                    🦉 Owl Post
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+   <!-- JavaScript -->
+<script src="main.js"></script>
+<script src="animations.js"></script>
+<script src="particles.js"></script>
+
+<!-- YOUR EXISTING LOADER SCRIPT -->
+<script>
+window.addEventListener("load", function () {
+    setTimeout(function () {
+        const loader = document.getElementById("loader-overlay");
+
+        if (loader) {
+            loader.style.opacity = "0";
+            loader.style.visibility = "hidden";
+            loader.style.pointerEvents = "none";
+        }
+    }, 2000);
+});
+</script>
+<!-- =====================================================
+     MAGICAL CURSOR
+     ===================================================== -->
+
+<div class="magic-cursor"></div>
+<div class="magic-cursor-ring"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    /* =========================
+       MAGICAL CURSOR
+       ========================= */
+
+    const cursor = document.querySelector(".magic-cursor");
+    const ring = document.querySelector(".magic-cursor-ring");
+
+    let mouseX = window.innerWidth / 2;
+    let mouseY = window.innerHeight / 2;
+
+    let ringX = mouseX;
+    let ringY = mouseY;
+
+    document.addEventListener("mousemove", function (e) {
+
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+
+        cursor.style.left = mouseX + "px";
+        cursor.style.top = mouseY + "px";
+
+        createSpark(mouseX, mouseY);
+
+    });
+
+
+    function animateRing() {
+
+        ringX += (mouseX - ringX) * 0.15;
+        ringY += (mouseY - ringY) * 0.15;
+
+        ring.style.left = ringX + "px";
+        ring.style.top = ringY + "px";
+
+        requestAnimationFrame(animateRing);
+
+    }
+
+    animateRing();
+
+
+    /* =========================
+       MAGICAL SPARKS
+       ========================= */
+
+    let sparkCounter = 0;
+
+    function createSpark(x, y) {
+
+        sparkCounter++;
+
+        if (sparkCounter % 4 !== 0) return;
+
+        const spark = document.createElement("div");
+
+        spark.className = "magic-spark";
+
+        spark.style.left = x + "px";
+        spark.style.top = y + "px";
+
+        const angle = Math.random() * Math.PI * 2;
+        const distance = 15 + Math.random() * 35;
+
+        spark.style.setProperty(
+            "--spark-x",
+            Math.cos(angle) * distance + "px"
+        );
+
+        spark.style.setProperty(
+            "--spark-y",
+            Math.sin(angle) * distance + "px"
+        );
+
+        document.body.appendChild(spark);
+
+        setTimeout(function () {
+            spark.remove();
+        }, 800);
+
+    }
+
+
+    /* =========================
+       CURSOR HOVER EFFECT
+       ========================= */
+
+    const hoverElements = document.querySelectorAll(
+        "a, button, input, textarea, select, .project-card, .nav-link"
+    );
+
+    hoverElements.forEach(function (element) {
+
+        element.addEventListener("mouseenter", function () {
+            document.body.classList.add("cursor-hover");
+        });
+
+        element.addEventListener("mouseleave", function () {
+            document.body.classList.remove("cursor-hover");
+        });
+
+    });
+
+
+    /* =========================
+       HARRY POTTER THEME MUSIC
+       ========================= */
+
+    const music = document.getElementById("hp-theme");
+    const musicButton = document.getElementById("music-toggle");
+
+    if (music && musicButton) {
+
+        music.volume = 0.7;
+
+        musicButton.addEventListener("click", async function () {
+
+            try {
+
+                if (music.paused) {
+
+                    await music.play();
+
+                    musicButton.innerHTML = "🔊";
+
+                    musicButton.classList.add(
+                        "music-playing"
+                    );
+
+                } else {
+
+                    music.pause();
+
+                    musicButton.innerHTML = "🎵";
+
+                    musicButton.classList.remove(
+                        "music-playing"
+                    );
+
+                }
+
+            } catch (error) {
+
+                console.error(
+                    "Music playback failed:",
+                    error
+                );
+
+            }
+
+        });
+
+    }
+
+});
+</script>
+
+
+<!-- =====================================================
+     HARRY POTTER THEME SONG
+     ===================================================== -->
+
+<button
+    id="music-toggle"
+    class="music-toggle"
+    type="button"
+    aria-label="Play magical theme"
+>
+    🎵
+</button>
+
+<audio
+    id="hp-theme"
+    preload="auto"
+    loop
+>
+    <source
+        src="./harrypotter.mp3"
+        type="audio/mpeg"
+    >
+</audio>
+
+
+</body>
+</html>
